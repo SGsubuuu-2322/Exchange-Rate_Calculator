@@ -17,3 +17,39 @@ body {
   padding: 20px;
   height: 100vh;
 }
+
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+}
+
+.money-img {
+  width: 150px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.currency {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 10px 20px 10px 20px;
+  /* appearance: none; */
+  /* -moz-appearance: none; */
+  /* -webkit-appearance: none; */
+}
