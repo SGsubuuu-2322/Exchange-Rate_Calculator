@@ -16,6 +16,8 @@ function calculate() {
       const rate = data.conversion_rates[currencyTwoElValue];
 
       rateEl.innerText = `1 ${currencyOneElValue} = ${rate} ${currencyTwoElValue} `;
+
+      amountTwoEl.value = (amountOneEl.value * rate).toFixed(2);
     });
 }
 
